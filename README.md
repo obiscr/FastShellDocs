@@ -1,2 +1,3 @@
 # FastShellDocs
-The docs repo of ExcelEditor
+
+The docs repo of FastShell
