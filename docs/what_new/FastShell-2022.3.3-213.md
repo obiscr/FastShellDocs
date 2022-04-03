@@ -4,37 +4,60 @@ sidebar_label: FastShell 2022.3.3-213
 title: What's new in FastShell 2022.3.3-213
 ---
 
-## Preview 
+## Introduce
 
-ExcelReader has updated the SQL search mode, which can query based on multiple conditions at the same time.
+Fast Shell supports the management of custom scripts, which can quickly execute shell commands. The supported commands depend on the shell environment used by the current IDE.
+Fast Shell has a fairly high degree of freedom. All instructions are completely defined by the user.
 
-![Preview1](https://user-images.githubusercontent.com/28687074/158058906-bf355e85-71cf-475f-9814-5ef5ea98faba.gif)
+Replace `a very long command` with a short `command`. And it's integrated into the IDE's `Run Anything`, so you can easily open it with `Double Ctrl`.
 
-![Preview2](https://user-images.githubusercontent.com/28687074/158058915-70cec3ec-872c-45a7-aa7d-dd68d735d953.gif)
+The goal of Fast Shell is to let you get rid of **alias** in `.bashrc` or `.zshrc`.
 
-## Supported Versions
+It doesn't matter if you have defined some commonly used directives in `.bashrc` or `.zshrc`. You can still add it to FastShell to execute.
 
-| Plugin Version        | IDE Version                                   |
-|:-------------|:----------------------------------------------|
-| [2021.3.2](https://plugins.jetbrains.com/plugin/14722-excelreader/versions/stable/162214)  | 2021.3 ~ 2021.3.2 |
-| [2021.2.2](https://plugins.jetbrains.com/plugin/14722-excelreader/versions/stable/162213)  | 2021.2 ~ 2021.2.4 |
-| [2021.1.2](https://plugins.jetbrains.com/plugin/14722-excelreader/versions/stable/162211)  | 2021.1 ~ 2021.1.3 |
-| [2020.3.2](https://plugins.jetbrains.com/plugin/14722-excelreader/versions/stable/162209)  | 2020.3 ~ 2020.3.4 |
-| [2020.2.2](https://plugins.jetbrains.com/plugin/14722-excelreader/versions/stable/162208)  | 2020.2 ~ 2020.2.4 |
-| [2020.1.2](https://plugins.jetbrains.com/plugin/14722-excelreader/versions/stable/162207)  | 2020.1 ~ 2020.1.4 |
+### Supported Versions
 
-## Usage 
+Fast Shell will support all JetBrains platforms from `2020.1` to `2021.3`, and will be supported as soon as possible after the `2022` version is released.
 
-After opening ExcelReader, press `Alt + Q` or click ![](https://user-images.githubusercontent.com/28687074/158059969-51eeb68c-f0f4-44bb-bcd8-e4413c63fca6.svg) 
-in the ExcelReader toolbar can be turned on.
+![git-repo](https://user-images.githubusercontent.com/28687074/160279796-574b4bd9-170a-472d-9a4e-fa897866b051.png)
 
-![](https://user-images.githubusercontent.com/28687074/158205245-821cb56c-9691-44e2-9448-821b1bd5ec21.png)
 
-Press `/` for the first time, all column names of the current table will be displayed. After selecting a column name, 
-it will be automatically filled with \column name=\, and then enter
-match the value you wanted. If there are multiple conditions, you can 
-enter `/` again, and after the auto-fill is complete, enter the matching value you wanted. 
-There are more conditions for query the operation remains as above.
+![linux-show](https://user-images.githubusercontent.com/28687074/160279800-9b388cdc-a687-488c-a1eb-17785f750272.gif)
 
-After a column has been selected, when you press `/` again, 
-it will not appear in the candidate list.
+If the instruction is a lot, you can also write it as a script, and then invoke the script through Fast Shell to execute it.
+
+![exec-shell](https://user-images.githubusercontent.com/28687074/160279810-2371b3cd-57f9-487c-888c-27dd49e1fec0.gif)
+
+
+## Usage
+
+Double-click `Ctrl`, enter `fs`, it will list all the Fast Shell commands that have been set, double-click to execute or press Enter after selecting it to execute.
+
+You can also open settings via `Settings/Preferences` > `Tools` > `Fast Shell`.
+
+You can also add a custom directive. Click ![](https://intellij-icons.jetbrains.design/icons/AllIcons/general/settings.svg) in the upper right corner of the **Run Anything** toolbar to open Open Settings to manage your commands.
+
+![add-command](https://user-images.githubusercontent.com/28687074/160279806-2120b040-72f3-4319-8c5c-055cb05fb305.gif)
+
+## Runs on Windows platform
+
+Most of the shell commands are the same for **Linux** and **Mac**. So basically universal. But on **Windows** things are a little different. Windows has its own separate directives.
+
+E.g:
+
+|  Windows PowerShell  | Linux/macOS  |
+|  ----  | ----  |
+| ipconfig  | ifconfig |
+| Get-Content `filename` -Wait  | tailf / tail -F `filename` |
+
+Therefore, when setting the command, you need to ensure that the current Shell environment supports the set command.
+
+![win-exec](https://user-images.githubusercontent.com/28687074/160281920-fb654a8d-f4fe-49ba-b552-7f00f0c292be.gif)
+
+## Appendix
+
+### Set the current shell environment
+
+`Settings/Preferences` > `Tools` > `Terminal` > `Shell Path`
+
+![bash-env](https://user-images.githubusercontent.com/28687074/160279815-5fa10f79-f6bb-42a7-86e1-22417765dea4.png)
