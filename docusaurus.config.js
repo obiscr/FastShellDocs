@@ -90,7 +90,7 @@ const config = {
             'aria-label': 'GitHub repository',
           },
           {
-            href: 'https://obiscr.github.io/FastShell/blog',
+            href: 'https://fastshell.obiscr.com/blog',
             position: 'right',
             className: 'header-jetbrains-link',
             'aria-label': 'JetBrains Plugin Platform',
