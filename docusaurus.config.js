@@ -60,7 +60,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-            '<b>🎉🎉🎉 FastShell plugin is coming soon, stay tuned!</b> 🎉🎉🎉',
+            '<b>🎉🎉🎉 <a href="https://plugins.jetbrains.com/plugin/18971-fastshell">FastShell</a> has now been released, <a href="https://plugins.jetbrains.com/plugin/18971-fastshell">Show me</a>!</b> 🎉🎉🎉',
         backgroundColor: '#499C54',
         textColor: '#fff',
         isCloseable: false,
@@ -90,10 +90,10 @@ const config = {
             'aria-label': 'GitHub repository',
           },
           {
-            href: 'https://fastshell.obiscr.com/blog',
+            href: 'https://plugins.jetbrains.com/plugin/18971-fastshell',
             position: 'right',
             className: 'header-jetbrains-link',
-            'aria-label': 'JetBrains Plugin Platform',
+            'aria-label': 'JetBrains Plugin Marketplace',
           },
         ],
       },
