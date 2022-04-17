@@ -1,12 +1,12 @@
 ---
-title: FastShell is now available
+title: FastShell has now been released
 authors: piercebrands
 tags: [Version]
 ---
 
 ## Introduce
 
-FastShell is now available, see [Marketplace](https://plugins.jetbrains.com/plugin/18971-fastshell)
+FastShell has now been released, see [Marketplace](https://plugins.jetbrains.com/plugin/18971-fastshell)
 
 ### Supported Versions
 
