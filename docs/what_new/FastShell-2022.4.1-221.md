@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-sidebar_label: FastShell 2022.3.3-213
-title: What's new in FastShell 2022.3.3-213
+sidebar_label: FastShell 2022.4.1-221
+title: What's new in FastShell 2022.4.1-221
 ---
 
 ## Introduce
@@ -17,10 +17,20 @@ It doesn't matter if you have defined some commonly used directives in `.bashrc`
 
 ### Supported Versions
 
-Fast Shell will support all JetBrains platforms from `2020.1` to `2021.3`, and will be supported as soon as possible after the `2022` version is released.
+Fast Shell will support all JetBrains platforms from `2020.1` to `2022.1`.
 
-![git-repo](https://user-images.githubusercontent.com/28687074/160279796-574b4bd9-170a-472d-9a4e-fa897866b051.png)
+| Plugin Version                                                                              | IDE Version                   |
+|:--------------------------------------------------------------------------------------------|:------------------------------|
+| [2022.4.1-221](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168720) | 2022.1   ~ **Future version** |
+| [2022.4.1-213](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168719) | 2021.3   ~ 2021.3.2           |
+| [2022.4.1-212](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168718) | 2021.2   ~ 2021.2.4           |
+| [2022.4.1-211](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168717) | 2021.1   ~ 2021.1.3           |
+| [2022.4.1-203](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168716) | 2020.3.1 ~ 2020.3.4           |
+| [2022.4.1-202](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168715) | 2020.2.1 ~ 2020.2.4           |
+| [2022.4.1-201](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168714) | 2020.1.1 ~ 2020.1.4           |
 
+
+### Preview
 
 ![linux-show](https://user-images.githubusercontent.com/28687074/160279800-9b388cdc-a687-488c-a1eb-17785f750272.gif)
 
