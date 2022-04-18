@@ -12,15 +12,15 @@ FastShell has now been released, see [Marketplace](https://plugins.jetbrains.com
 
 Fast Shell will support all JetBrains platforms from `2020.1` to `2022.1`.
 
-| Plugin Version                                                                              | IDE Version                   |
-|:--------------------------------------------------------------------------------------------|:------------------------------|
-| [2022.4.1-221](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168720) | 2022.1   ~ **Future version** |
-| [2022.4.1-213](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168719) | 2021.3   ~ 2021.3.2           |
-| [2022.4.1-212](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168718) | 2021.2   ~ 2021.2.4           |
-| [2022.4.1-211](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168717) | 2021.1   ~ 2021.1.3           |
-| [2022.4.1-203](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168716) | 2020.3.1 ~ 2020.3.4           |
-| [2022.4.1-202](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168715) | 2020.2.1 ~ 2020.2.4           |
-| [2022.4.1-201](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168714) | 2020.1.1 ~ 2020.1.4           |
+| Plugin Version                                                                                | IDE Version                   |
+|:----------------------------------------------------------------------------------------------|:------------------------------|
+| [2022.4.1-221.1](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168912) | 2022.1   ~ **Future version** |
+| [2022.4.1-213.1](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168911) | 2021.3   ~ 2021.3.2           |
+| [2022.4.1-212.1](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168909) | 2021.2   ~ 2021.2.4           |
+| [2022.4.1-211.1](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168908) | 2021.1   ~ 2021.1.3           |
+| [2022.4.1-203.1](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168907) | 2020.3.1 ~ 2020.3.4           |
+| [2022.4.1-202.1](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168906) | 2020.2.1 ~ 2020.2.4           |
+| [2022.4.1-201.1](https://plugins.jetbrains.com/plugin/18971-fastshell/versions/stable/168905) | 2020.1.1 ~ 2020.1.4           |
 
 
 
